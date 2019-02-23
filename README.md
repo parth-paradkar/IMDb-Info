@@ -1,6 +1,6 @@
 # IMDb-Info
 
-Get the information of your favourite movies or movies on your buckectlist from the IMDb website in the comfort of your terminal using a python script. 
+Get the information of your favourite movies or movies on your bucketlist from the IMDb website in the comfort of your terminal using a python script. 
 
 ## Getting Started
 
@@ -36,7 +36,9 @@ pip install imdb
 
 ```
 This package is written in python 2.7 but it is compatible with python 3.6
+
 Full Documentation: https://imdbpy.sourceforge.io/support.html#documentation
+
 Source Code: https://github.com/alberanid/imdbpy
 
 ### How to run
@@ -100,6 +102,8 @@ Chronicles the experiences of a formerly successful banker as a prisoner in the 
 ```
 
 You may edit the information that is shown by adding/deleting the respective keys in the source code.
+
+IMDb Website: www.imdb.com
 
 
 
