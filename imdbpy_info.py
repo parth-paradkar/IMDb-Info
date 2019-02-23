@@ -7,8 +7,11 @@ movie_name = ''
 for arg in sys.argv[1:]:
     movie_name += arg + ' '
 
+movie_name = movie_name[:len(movie_name) - 1]
+
+
 movies = new.search_movie(movie_name)
-# print(dir(movies[0]))
+# # print(dir(movies[0]))
 movie_code = movies[0].movieID
 
 
@@ -26,10 +29,8 @@ print(new_movie['year'])
 print('\nGenres: ')
 for genre in new_movie['genres']:
     print(genre)
-print('\nRating: ' + str(new_movie['rating']) + '\n')
-# print(new_movie['cast'][0:10])
-# print(new_movie['cast'][0])
-# print(new.get_movie_infoset())
+print('\nIMDb Rating: ' + str(new_movie['rating']) + '\n')
+
 print('Cast: ')
 for actor in new_movie['cast'][0:5]:
     print(actor)
