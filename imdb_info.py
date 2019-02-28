@@ -16,7 +16,7 @@ movie_code = movies[0].movieID
 
 
 new_movie = new.get_movie(movie_code)
-# dictionary created
+# dictionary created from object
 
 # print the keys available
 # print(new_movie.infoset2keys)
