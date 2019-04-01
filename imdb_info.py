@@ -35,6 +35,9 @@ try:
     print('Cast: ')
     for actor in new_movie['cast'][0:5]:
         print(actor)
-    print('\n' + new_movie['plot outline'])
+    try:
+        print('\n' + new_movie['plot outline'])
+    except KeyError:
+        print('\nPlot outline unavailable')
 except IndexError:
     print('Movie not found!')
