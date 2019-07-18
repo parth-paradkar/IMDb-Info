@@ -53,7 +53,7 @@ Now to run the program.
 python imdb_info.py <movie name>
 ```
 
-### Demo(featuring my favourite movies :D )
+### Demo (featuring my favourite movies :smile: )
 ```
 python imdbpy_info.py Whiplash
 Whiplash
